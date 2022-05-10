@@ -1,0 +1,26 @@
+1652163353143	geckodriver	INFO	Listening on 127.0.0.1:60637
+1652163353148	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "53207" "-no-remote" "-profile" "/tmp/rust_mozprofileUsw4TY"
+*** You are running in headless mode.
+1652163353450	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUsw4TY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53207/devtools/browser/6036edec-15e4-4c91-a311-be855551d91e
+1652163354349	Marionette	INFO	Listening on port 33407
+1652163354374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652163359373	Marionette	INFO	Stopped listening on port 33407
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofileUsw4TY/protections.sqlite
