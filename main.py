@@ -49,7 +49,7 @@ def main():
         driver.get(url)
 
         time.sleep(3)
-        
+        print(driver.page_source)
         try:
             main_div = driver.find_element(By.CLASS_NAME, "sec-item-alt")
         except NoSuchElementException:
